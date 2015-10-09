@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        self.changeViewRTL(self.view)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +21,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func localizeConstraint(sender: AnyObject) {
+        for  tempView:UIView in self.view.allSubViews() {
+            
+            self.changeViewRTL(tempView)
+        }
+    }
 
 }
 

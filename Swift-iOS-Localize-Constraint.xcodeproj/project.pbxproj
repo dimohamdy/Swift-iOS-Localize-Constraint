@@ -12,7 +12,9 @@
 		3D1499D41BC724E70085611D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1499D21BC724E70085611D /* Main.storyboard */; };
 		3D1499D61BC724E70085611D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1499D51BC724E70085611D /* Images.xcassets */; };
 		3D1499D91BC724E70085611D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1499D71BC724E70085611D /* LaunchScreen.xib */; };
-		3D1499E51BC724E70085611D /* Swift_iOS_Localize_ConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1499E41BC724E70085611D /* Swift_iOS_Localize_ConstraintTests.swift */; };
+		3D1499F31BC7271F0085611D /* LocalizeConstrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1499F21BC7271F0085611D /* LocalizeConstrint.swift */; };
+		3D1499F51BC738730085611D /* ViewRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1499F41BC738730085611D /* ViewRecursion.swift */; };
+		3DC021371BC740FB00834B7B /* Swift-iOS_Localize_ConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC021361BC740FB00834B7B /* Swift-iOS_Localize_ConstraintTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,21 +23,23 @@
 			containerPortal = 3D1499C11BC724E60085611D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3D1499C81BC724E60085611D;
-			remoteInfo = "Swift_iOS-Localize-Constraint";
+			remoteInfo = "Swift-iOS-Localize-Constraint";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D1499C91BC724E60085611D /* Swift_iOS-Localize-Constraint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift_iOS-Localize-Constraint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1499C91BC724E60085611D /* Swift-iOS-Localize-Constraint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-iOS-Localize-Constraint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1499CD1BC724E70085611D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D1499CE1BC724E70085611D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D1499D01BC724E70085611D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D1499D31BC724E70085611D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D1499D51BC724E70085611D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3D1499D81BC724E70085611D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3D1499DE1BC724E70085611D /* Swift_iOS-Localize-ConstraintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift_iOS-Localize-ConstraintTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1499DE1BC724E70085611D /* Swift-iOS-Localize-ConstraintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-iOS-Localize-ConstraintTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1499E31BC724E70085611D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D1499E41BC724E70085611D /* Swift_iOS_Localize_ConstraintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_iOS_Localize_ConstraintTests.swift; sourceTree = "<group>"; };
+		3D1499F21BC7271F0085611D /* LocalizeConstrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeConstrint.swift; sourceTree = "<group>"; };
+		3D1499F41BC738730085611D /* ViewRecursion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRecursion.swift; sourceTree = "<group>"; };
+		3DC021361BC740FB00834B7B /* Swift-iOS_Localize_ConstraintTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift-iOS_Localize_ConstraintTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,8 @@
 		3D1499C01BC724E60085611D = {
 			isa = PBXGroup;
 			children = (
-				3D1499CB1BC724E60085611D /* Swift_iOS-Localize-Constraint */,
-				3D1499E11BC724E70085611D /* Swift_iOS-Localize-ConstraintTests */,
+				3D1499CB1BC724E60085611D /* Swift-iOS-Localize-Constraint */,
+				3D1499E11BC724E70085611D /* Swift-iOS-Localize-ConstraintTests */,
 				3D1499CA1BC724E60085611D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,23 +72,25 @@
 		3D1499CA1BC724E60085611D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D1499C91BC724E60085611D /* Swift_iOS-Localize-Constraint.app */,
-				3D1499DE1BC724E70085611D /* Swift_iOS-Localize-ConstraintTests.xctest */,
+				3D1499C91BC724E60085611D /* Swift-iOS-Localize-Constraint.app */,
+				3D1499DE1BC724E70085611D /* Swift-iOS-Localize-ConstraintTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D1499CB1BC724E60085611D /* Swift_iOS-Localize-Constraint */ = {
+		3D1499CB1BC724E60085611D /* Swift-iOS-Localize-Constraint */ = {
 			isa = PBXGroup;
 			children = (
 				3D1499CE1BC724E70085611D /* AppDelegate.swift */,
 				3D1499D01BC724E70085611D /* ViewController.swift */,
+				3D1499F21BC7271F0085611D /* LocalizeConstrint.swift */,
+				3D1499F41BC738730085611D /* ViewRecursion.swift */,
 				3D1499D21BC724E70085611D /* Main.storyboard */,
 				3D1499D51BC724E70085611D /* Images.xcassets */,
 				3D1499D71BC724E70085611D /* LaunchScreen.xib */,
 				3D1499CC1BC724E70085611D /* Supporting Files */,
 			);
-			path = "Swift_iOS-Localize-Constraint";
+			path = "Swift-iOS-Localize-Constraint";
 			sourceTree = "<group>";
 		};
 		3D1499CC1BC724E70085611D /* Supporting Files */ = {
@@ -95,13 +101,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3D1499E11BC724E70085611D /* Swift_iOS-Localize-ConstraintTests */ = {
+		3D1499E11BC724E70085611D /* Swift-iOS-Localize-ConstraintTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D1499E41BC724E70085611D /* Swift_iOS_Localize_ConstraintTests.swift */,
+				3DC021361BC740FB00834B7B /* Swift-iOS_Localize_ConstraintTests.swift */,
 				3D1499E21BC724E70085611D /* Supporting Files */,
 			);
-			path = "Swift_iOS-Localize-ConstraintTests";
+			path = "Swift-iOS-Localize-ConstraintTests";
 			sourceTree = "<group>";
 		};
 		3D1499E21BC724E70085611D /* Supporting Files */ = {
@@ -115,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D1499C81BC724E60085611D /* Swift_iOS-Localize-Constraint */ = {
+		3D1499C81BC724E60085611D /* Swift-iOS-Localize-Constraint */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D1499E81BC724E70085611D /* Build configuration list for PBXNativeTarget "Swift_iOS-Localize-Constraint" */;
+			buildConfigurationList = 3D1499E81BC724E70085611D /* Build configuration list for PBXNativeTarget "Swift-iOS-Localize-Constraint" */;
 			buildPhases = (
 				3D1499C51BC724E60085611D /* Sources */,
 				3D1499C61BC724E60085611D /* Frameworks */,
@@ -127,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = "Swift_iOS-Localize-Constraint";
-			productName = "Swift_iOS-Localize-Constraint";
-			productReference = 3D1499C91BC724E60085611D /* Swift_iOS-Localize-Constraint.app */;
+			name = "Swift-iOS-Localize-Constraint";
+			productName = "Swift-iOS-Localize-Constraint";
+			productReference = 3D1499C91BC724E60085611D /* Swift-iOS-Localize-Constraint.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D1499DD1BC724E70085611D /* Swift_iOS-Localize-ConstraintTests */ = {
+		3D1499DD1BC724E70085611D /* Swift-iOS-Localize-ConstraintTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D1499EB1BC724E70085611D /* Build configuration list for PBXNativeTarget "Swift_iOS-Localize-ConstraintTests" */;
+			buildConfigurationList = 3D1499EB1BC724E70085611D /* Build configuration list for PBXNativeTarget "Swift-iOS-Localize-ConstraintTests" */;
 			buildPhases = (
 				3D1499DA1BC724E70085611D /* Sources */,
 				3D1499DB1BC724E70085611D /* Frameworks */,
@@ -145,9 +151,9 @@
 			dependencies = (
 				3D1499E01BC724E70085611D /* PBXTargetDependency */,
 			);
-			name = "Swift_iOS-Localize-ConstraintTests";
-			productName = "Swift_iOS-Localize-ConstraintTests";
-			productReference = 3D1499DE1BC724E70085611D /* Swift_iOS-Localize-ConstraintTests.xctest */;
+			name = "Swift-iOS-Localize-ConstraintTests";
+			productName = "Swift-iOS-Localize-ConstraintTests";
+			productReference = 3D1499DE1BC724E70085611D /* Swift-iOS-Localize-ConstraintTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D1499C41BC724E60085611D /* Build configuration list for PBXProject "Swift_iOS-Localize-Constraint" */;
+			buildConfigurationList = 3D1499C41BC724E60085611D /* Build configuration list for PBXProject "Swift-iOS-Localize-Constraint" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +187,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D1499C81BC724E60085611D /* Swift_iOS-Localize-Constraint */,
-				3D1499DD1BC724E70085611D /* Swift_iOS-Localize-ConstraintTests */,
+				3D1499C81BC724E60085611D /* Swift-iOS-Localize-Constraint */,
+				3D1499DD1BC724E70085611D /* Swift-iOS-Localize-ConstraintTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +220,8 @@
 			files = (
 				3D1499D11BC724E70085611D /* ViewController.swift in Sources */,
 				3D1499CF1BC724E70085611D /* AppDelegate.swift in Sources */,
+				3D1499F31BC7271F0085611D /* LocalizeConstrint.swift in Sources */,
+				3D1499F51BC738730085611D /* ViewRecursion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1499E51BC724E70085611D /* Swift_iOS_Localize_ConstraintTests.swift in Sources */,
+				3DC021371BC740FB00834B7B /* Swift-iOS_Localize_ConstraintTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +238,7 @@
 /* Begin PBXTargetDependency section */
 		3D1499E01BC724E70085611D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D1499C81BC724E60085611D /* Swift_iOS-Localize-Constraint */;
+			target = 3D1499C81BC724E60085611D /* Swift-iOS-Localize-Constraint */;
 			targetProxy = 3D1499DF1BC724E70085611D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -295,7 +303,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				"Swift-OPTIMIZATION_LEVEL" = "-Onone";
 			};
 			name = Debug;
 		};
@@ -340,7 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Swift_iOS-Localize-Constraint/Info.plist";
+				INFOPLIST_FILE = "Swift-iOS-Localize-Constraint/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -350,7 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Swift_iOS-Localize-Constraint/Info.plist";
+				INFOPLIST_FILE = "Swift-iOS-Localize-Constraint/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -368,10 +376,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Swift_iOS-Localize-ConstraintTests/Info.plist";
+				INFOPLIST_FILE = "Swift-iOS-Localize-ConstraintTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_iOS-Localize-Constraint.app/Swift_iOS-Localize-Constraint";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-iOS-Localize-Constraint.app/Swift-iOS-Localize-Constraint";
 			};
 			name = Debug;
 		};
@@ -383,17 +391,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Swift_iOS-Localize-ConstraintTests/Info.plist";
+				INFOPLIST_FILE = "Swift-iOS-Localize-ConstraintTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_iOS-Localize-Constraint.app/Swift_iOS-Localize-Constraint";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-iOS-Localize-Constraint.app/Swift-iOS-Localize-Constraint";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D1499C41BC724E60085611D /* Build configuration list for PBXProject "Swift_iOS-Localize-Constraint" */ = {
+		3D1499C41BC724E60085611D /* Build configuration list for PBXProject "Swift-iOS-Localize-Constraint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D1499E61BC724E70085611D /* Debug */,
@@ -402,21 +410,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D1499E81BC724E70085611D /* Build configuration list for PBXNativeTarget "Swift_iOS-Localize-Constraint" */ = {
+		3D1499E81BC724E70085611D /* Build configuration list for PBXNativeTarget "Swift-iOS-Localize-Constraint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D1499E91BC724E70085611D /* Debug */,
 				3D1499EA1BC724E70085611D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3D1499EB1BC724E70085611D /* Build configuration list for PBXNativeTarget "Swift_iOS-Localize-ConstraintTests" */ = {
+		3D1499EB1BC724E70085611D /* Build configuration list for PBXNativeTarget "Swift-iOS-Localize-ConstraintTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D1499EC1BC724E70085611D /* Debug */,
 				3D1499ED1BC724E70085611D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

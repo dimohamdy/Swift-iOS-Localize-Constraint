@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D1499C81BC724E60085611D"
-               BuildableName = "Swift_iOS-Localize-Constraint.app"
-               BlueprintName = "Swift_iOS-Localize-Constraint"
-               ReferencedContainer = "container:Swift_iOS-Localize-Constraint.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D1499DD1BC724E70085611D"
-               BuildableName = "Swift_iOS-Localize-ConstraintTests.xctest"
-               BlueprintName = "Swift_iOS-Localize-ConstraintTests"
-               ReferencedContainer = "container:Swift_iOS-Localize-Constraint.xcodeproj">
+               BuildableName = "Swift-iOS-Localize-Constraint.app"
+               BlueprintName = "Swift-iOS-Localize-Constraint"
+               ReferencedContainer = "container:Swift-iOS-Localize-Constraint.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D1499DD1BC724E70085611D"
-               BuildableName = "Swift_iOS-Localize-ConstraintTests.xctest"
-               BlueprintName = "Swift_iOS-Localize-ConstraintTests"
-               ReferencedContainer = "container:Swift_iOS-Localize-Constraint.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D1499C81BC724E60085611D"
-            BuildableName = "Swift_iOS-Localize-Constraint.app"
-            BlueprintName = "Swift_iOS-Localize-Constraint"
-            ReferencedContainer = "container:Swift_iOS-Localize-Constraint.xcodeproj">
+            BuildableName = "Swift-iOS-Localize-Constraint.app"
+            BlueprintName = "Swift-iOS-Localize-Constraint"
+            ReferencedContainer = "container:Swift-iOS-Localize-Constraint.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D1499C81BC724E60085611D"
-            BuildableName = "Swift_iOS-Localize-Constraint.app"
-            BlueprintName = "Swift_iOS-Localize-Constraint"
-            ReferencedContainer = "container:Swift_iOS-Localize-Constraint.xcodeproj">
+            BuildableName = "Swift-iOS-Localize-Constraint.app"
+            BlueprintName = "Swift-iOS-Localize-Constraint"
+            ReferencedContainer = "container:Swift-iOS-Localize-Constraint.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D1499C81BC724E60085611D"
-            BuildableName = "Swift_iOS-Localize-Constraint.app"
-            BlueprintName = "Swift_iOS-Localize-Constraint"
-            ReferencedContainer = "container:Swift_iOS-Localize-Constraint.xcodeproj">
+            BuildableName = "Swift-iOS-Localize-Constraint.app"
+            BlueprintName = "Swift-iOS-Localize-Constraint"
+            ReferencedContainer = "container:Swift-iOS-Localize-Constraint.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
